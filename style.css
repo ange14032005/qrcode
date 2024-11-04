@@ -1,0 +1,42 @@
+:root{
+    --white : hsl(0, 0, 100%);
+    --slate300 : hsl(212, 45%, 89%);
+    --slate500 : hsl(216, 15%, 48%);
+    --slate900 : hsl(218, 44%, 22%);
+    --radius : 20px;
+    
+}
+body{
+    font-size: 15px;
+    font-family: Outfit;
+    background: var(--slate300);
+    min-width: 320px;
+    padding:150px 35% 15% 35%;
+    
+}
+h1{
+    color: var(--slate900);
+}
+p{
+    color: var(--slate500);
+}
+div{
+    padding: 15px;
+    background: white;
+    border: 0 solid;
+    border-radius: var(--radius) ;
+    text-align: center;
+    width: auto;
+}
+img{
+    width: 100%;
+    border-radius: var(--radius);
+}
+
+@media (max-width: 375px) {
+    body{
+        padding:150px 10px 15% 10px;
+    }
+ 
+  }
+  
