@@ -11,7 +11,7 @@ body{
     font-family: Outfit;
     background: var(--slate300);
     min-width: 320px;
-    padding:150px 35% 15% 35%;
+    padding:100px 35% 10% 35%;
     
 }
 h1{
