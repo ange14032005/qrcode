@@ -1,43 +1,71 @@
-:root{
-    --white : hsl(0, 0, 100%);
-    --slate300 : hsl(212, 45%, 89%);
-    --slate500 : hsl(216, 15%, 48%);
-    --slate900 : hsl(218, 44%, 22%);
-    --radius : 20px;
-    
+:root {
+    --white: hsl(0, 0%, 100%);
+    --slate300: hsl(212, 45%, 89%);
+    --slate500: hsl(216, 15%, 48%);
+    --slate900: hsl(218, 44%, 22%);
+    --radius: 20px;
 }
-body{
+
+body {
     font-size: 15px;
     text-align: center;
     font-family: 'Outfit', sans-serif;
     background: var(--slate300);
     min-width: 320px;
-    padding:100px 35% 10% 35%;
-    
+    padding: 100px 35% 10% 35%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
-h1{
+
+h1 {
     color: var(--slate900);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Ajout de l'ombrage pour améliorer la lisibilité */
 }
-p{
+
+p {
     color: var(--slate500);
 }
-div{
+
+div {
     padding: 15px;
-    background: white;
+    background: var(--white);
     border: 0 solid;
-    border-radius: var(--radius) ;
+    border-radius: var(--radius);
     text-align: center;
     width: auto;
+    max-width: 500px; /* Limiter la largeur du div */
+    margin: 0 auto;   /* Centrer le div */
 }
-img{
+
+img {
     width: 100%;
     border-radius: var(--radius);
 }
 
 @media (max-width: 375px) {
-    body{
-        padding:100px 10px 15% 10px;
+    body {
+        padding: 100px 10px 15% 10px; /* Ajuster les paddings sur les petits écrans */
     }
- 
-  }
-  
+
+    h1 {
+        font-size: 18px;  /* Réduire la taille de la police sur mobile */
+    }
+
+    p {
+        font-size: 14px;  /* Réduire aussi le texte du paragraphe */
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        padding: 80px 5% 15% 5%; /* Réduire encore les paddings pour les très petits écrans */
+    }
+
+    h1 {
+        font-size: 16px;  /* Réduire la taille de la police pour les petits écrans */
+    }
+
+    p {
+        font-size: 12px;  /* Réduire le texte du paragraphe pour les très petits écrans */
+    }
+}
