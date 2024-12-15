@@ -10,9 +10,6 @@ Il s'agit d'une solution au challenge du [composant QR code sur Frontend Mentor]
 - [Mon processus](#mon-processus)
   - [Techniques utilisées](#techniques-utilisées)
   - [Ce que j'ai appris](#ce-que-jai-appris)
-  - [Développement futur](#développement-futur)
-  - [Ressources utiles](#ressources-utiles)
-- [Auteur](#auteur)
 
 ## Présentation
 
