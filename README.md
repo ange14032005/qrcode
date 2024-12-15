@@ -5,17 +5,12 @@ Il s'agit d'une solution au challenge du [composant QR code sur Frontend Mentor]
 ## Table des matières
 
 - [Présentation](#présentation)
-  - [Capture d'écran](#capture-décran)
   - [Liens](#liens)
 - [Mon processus](#mon-processus)
   - [Techniques utilisées](#techniques-utilisées)
   - [Ce que j'ai appris](#ce-que-jai-appris)
 
 ## Présentation
-
-### Capture d'écran
-
-(Insère ici une capture d'écran de ton projet si tu le souhaites)
 
 ### Liens
 
